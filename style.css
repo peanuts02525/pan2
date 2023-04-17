@@ -1,0 +1,59 @@
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.hero {
+  background-image: url(bg_ground.png);
+  text-align: center;
+  padding-top: 10vh;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-color: lightblue;
+  background-blend-mode: hard-light;
+  min-height: 100vh;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 7rem;
+  margin-bottom: 2rem;
+}
+
+.fa-twitter {
+  color: blue;
+}
+
+.container {
+overflow: auto;
+scroll-snap-type: y mandatory;
+height: 100vh;
+}
+
+.section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.area {
+  scroll-snap-align: start;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+@media (max-width: 700px) {
+  .title {
+    font-size: 4rem;
+  }
+}
